@@ -1,0 +1,13 @@
+*.class
+.class
+.project
+.html
+.settings
+.classpath
+.avi
+/target/
+
+/test-output/
+/tempFiles/
+
+/bin/
