@@ -26,7 +26,7 @@ import cucumber.api.testng.AbstractTestNGCucumberTests;
 },
     tags = { "@Etsy" }, 
     features= {"src/test/resources/features/"},
-    glue="com/batch2/AutomationFrameworkFromScratch/stepDefinitions/",
+    glue="com/batch2/AutomationFrameworkFromScratch/step_definitions",
     monochrome = true, //display the console output in a proper readable format
     strict = true, //it will check if any step is not defined in step definition file
     dryRun=false
